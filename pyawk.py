@@ -7,7 +7,8 @@ Description:    This script will process a binlog file and output the results
                 in a more readable format.  It will also provide a summary
                 of the transactions processed.
 Usage:      python3 pyawk.py --binlog_file=binlog.000001 --start_time="2020-07-08 00:00:00" --stop_time="2020-07-08 23:59:59"
-Inspired by Percona's mysqlbinlog-awk.awk script found here: https://www.percona.com/blog/identifying-useful-information-mysql-row-based-binary-logs/
+Inspired by Percona's summarize_binlogs.sh script that uses awk and mysqlbinlog 
+found here: https://www.percona.com/blog/identifying-useful-information-mysql-row-based-binary-logs/
 """
 
 import subprocess
